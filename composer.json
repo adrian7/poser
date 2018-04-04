@@ -1,5 +1,5 @@
 {
-    "name": "badges/poser",
+    "name": "adrian7/badges-poser",
     "description": "Poser, add badges on your readme..",
     "keywords": ["composer", "packagist", "badge", "pin"],
     "homepage": "https://github.com/PUGX",
@@ -25,12 +25,12 @@
     "require": {
         "php": ">=5.3",
         "ext-gd": "*",
-        "symfony/console": "~2.0|~3.0",
-        "coduo/phpspec-data-provider-extension": "^1.0"
+        "symfony/console": "~2.0|~3.0"
     },
     "require-dev": {
         "phpspec/phpspec": "2.*",
         "behat/behat": "3.*",
+        "coduo/phpspec-data-provider-extension": "^1.0",
         "friendsofphp/php-cs-fixer": "@stable"
     },
     "config": {
